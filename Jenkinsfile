@@ -24,6 +24,13 @@ pipeline{
       
     }
     
+    stage("deploy in many instances"){
+      steps{
+        echo 'Deploying application...'
+      }
+      
+    }
+    
     
   }
   
