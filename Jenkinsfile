@@ -24,13 +24,26 @@ pipeline{
       
     }
     
-    stage("deploy in many instances"){
+    stage("deploy in many instances 1"){
       steps{
         echo 'Deploying application...'
       }
       
     }
     
+    stage("deploy in many instances 2"){
+      steps{
+        echo 'Deploying application...'
+      }
+      
+    }
+    
+    stage("deploy in many instances 3"){
+      steps{
+        echo 'Deploying application...'
+      }
+      
+    }
     
   }
   
